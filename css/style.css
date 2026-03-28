@@ -20,7 +20,7 @@ body {
 .menu {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
 }
 
 .menu a {
@@ -42,23 +42,55 @@ h1 {
     color: #00356b;
 }
 
-.main-subtitle {
-    margin-top: 5px;
+h2,
+h3,
+h4 {
+    margin-top: 30px;
+    font-size: 18px;
+
     font-family: var(--font-family);
     font-weight: 700;
-    font-size: 12px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: rgba(0, 53, 107, 0.7);
 }
 
-.main-text {
+.header-subtitle {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.about-me--title {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+p {
+    margin-top: 7px;
     font-family: var(--font-family);
     font-weight: 400;
-    font-size: 9px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.wrapper-info {
+.wrapper-content {
     display: flex;
+    align-items: left;
+    gap: 80px;
+    margin-top: 40px;
+}
+
+.content-left {
+    align-items: left;
+    min-width: 70%;
+}
+
+.education-subtitle {
+    margin-top: 4px;
+    font-size: 15px;
+    color: #000;
+}
+
+.content-right {
+    width: 30%;
 }
