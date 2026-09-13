@@ -16,7 +16,9 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
     padding: 40px 40px;
+    max-width: 1200px;
 }
 
 ul {
@@ -28,7 +30,9 @@ ul {
     gap: 15px;
 }
 
-a {
+.menu a, 
+.education-list a,
+.contacts-info a {
     font-family: var(--font-family);
     font-size: 12px;
     letter-spacing: 0.02em;
@@ -68,12 +72,21 @@ h4 {
     color: rgba(0, 53, 107, 0.7);
 }
 
-
+.header-info {
+    position: relative;
+}
 
 .header-subtitle {
     margin-top: 5px;
 
     font-size: 12px;
+}
+
+.header-info img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
 }
 
 .about-me--title {
@@ -92,9 +105,9 @@ p {
 
 .wrapper-content {
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 80px;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 
 .content-line {
@@ -104,23 +117,11 @@ p {
     background-color: rgba(0, 53, 107, 0.2);
 }
 
-.content-left {
-    width: 70%;
-}
-
 .education-subtitle {
     margin-top: 4px;
 
     font-size: 14px;
     color: #000000;
-}
-
-.content-right {
-    width: 30%;
-}
-
-.contacts-title {
-    margin-top: 0;
 }
 
 .contacts-subtitle {
@@ -131,7 +132,7 @@ p {
     color: #000000;
 }
 
-.contacts-email {
+.contacts-info .contacts-email {
     text-transform: none;
 }
 
@@ -161,43 +162,31 @@ p {
 }
 
 .skills-html--progress {
-    width: 80%;
+    width: 90%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-css--progress {
-    width: 60%;
+    width: 70%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-git--progress {
-    width: 40%;
+    width: 50%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-figma--progress {
-    width: 35%;
+    width: 50%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-
-    margin-top: 20px;
-    padding: 10px 0;
-    width: 100%;
-
-    text-align: center;
 }
 
 .footer-line {
@@ -211,7 +200,11 @@ p {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.footer-links a {
+    display: block;
 }
 
 .footer-links--git img {
