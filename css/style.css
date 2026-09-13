@@ -70,12 +70,21 @@ h4 {
     color: rgba(0, 53, 107, 0.7);
 }
 
-
+.header-info {
+    position: relative;
+}
 
 .header-subtitle {
     margin-top: 5px;
 
     font-size: 12px;
+}
+
+img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
 }
 
 .about-me--title {
