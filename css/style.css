@@ -172,43 +172,37 @@ p {
 }
 
 .skills-html--progress {
-    width: 80%;
+    width: 90%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-css--progress {
-    width: 60%;
+    width: 70%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-git--progress {
-    width: 40%;
+    width: 50%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .skills-figma--progress {
-    width: 35%;
+    width: 50%;
     height: 3px;
 
     background: rgba(0, 53, 107, 0.7);
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-
     margin-top: 20px;
     padding: 10px 0;
     width: 100%;
-
-    text-align: center;
 }
 
 .footer-line {
@@ -223,6 +217,10 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
+
+.footer-links a {
+    display: block;
 }
 
 .footer-links--git img {
