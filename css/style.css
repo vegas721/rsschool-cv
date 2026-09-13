@@ -16,7 +16,9 @@ body {
 }
 
 .wrapper {
+    margin: 0 auto;
     padding: 40px 40px;
+    max-width: 1200px;
 }
 
 ul {
@@ -92,9 +94,9 @@ p {
 
 .wrapper-content {
     display: flex;
-    align-items: left;
+    align-items: center;
     gap: 80px;
-    margin-top: 40px;
+    margin: 40px auto;
 }
 
 .content-line {
@@ -104,9 +106,9 @@ p {
     background-color: rgba(0, 53, 107, 0.2);
 }
 
-.content-left {
+/*.content-left {
     width: 70%;
-}
+}*/
 
 .education-subtitle {
     margin-top: 4px;
@@ -115,9 +117,9 @@ p {
     color: #000000;
 }
 
-.content-right {
+/*.content-right {
     width: 30%;
-}
+}*/
 
 .contacts-title {
     margin-top: 0;
