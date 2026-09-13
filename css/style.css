@@ -30,7 +30,9 @@ ul {
     gap: 15px;
 }
 
-a {
+.menu a, 
+.education-list a,
+.contacts-info a {
     font-family: var(--font-family);
     font-size: 12px;
     letter-spacing: 0.02em;
@@ -80,7 +82,7 @@ h4 {
     font-size: 12px;
 }
 
-img {
+.header-info img {
     position: absolute;
     right: 0;
     top: 0;
@@ -115,23 +117,11 @@ p {
     background-color: rgba(0, 53, 107, 0.2);
 }
 
-/*.content-left {
-    width: 70%;
-}*/
-
 .education-subtitle {
     margin-top: 4px;
 
     font-size: 14px;
     color: #000000;
-}
-
-/*.content-right {
-    width: 30%;
-}*/
-
-.contacts-title {
-    margin-top: 0;
 }
 
 .contacts-subtitle {
@@ -142,7 +132,7 @@ p {
     color: #000000;
 }
 
-.contacts-email {
+.contacts-info .contacts-email {
     text-transform: none;
 }
 
@@ -199,12 +189,6 @@ p {
     background: rgba(0, 53, 107, 0.7);
 }
 
-.footer {
-    margin-top: 20px;
-    padding: 10px 0;
-    width: 100%;
-}
-
 .footer-line {
     height: 2px;
 
@@ -216,7 +200,7 @@ p {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .footer-links a {
